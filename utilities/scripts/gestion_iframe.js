@@ -1,9 +1,8 @@
 doc.addEventListener('DOMContentLoaded', function() {
     liste.forEach(function(element) {
         element.addEventListener('click', function() {
-            liste.forEach(function() {
-                iframe.setAttribute("src", iframe_href[0]);
-            });
+            let index = parseInt(element.dataset.index);
+            iframe.setAttribute("src", iframe_href[index]);
         });
-    })
+    });
 });
