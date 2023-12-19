@@ -7,22 +7,49 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Groupe 2</title>
     <link rel="stylesheet" href="../utilities/css/styles.css">
-    <link rel="icon" href="../utilities/assets/pqge-icon.ico" type="image/x-icon">
+    <link rel="icon" href="../utilities/assets/page-icon.ico" type="image/x-icon">
+    <script defer src="../utilities/scripts/variables_locales.js"></script>
+    <script defer src="../utilities/scripts/joueur_audio.js"></script>
+    <script defer src="../utilities/scripts/gestion_titre.js"></script>
 </head>
 
 <body>
-    <div class="participants">
-        <h1 class="titre-categorie">Participants</h1>
+    <header id="header">
+        <h1 id="titre" data-titre="2">2. </h1>
+    </header>
+
+    <section id="nav">
+        <div class="participants">
+            <h1 class="titre-categorie">Participants</h1>
+        </div>
+        <div class="resume">
+            <h1 class="titre-categorie">Résumé</h1>
+        </div>
+        <div class="podcast">
+            <h1 class="titre-categorie">Podcast</h1>
+        </div>
+    </section>
+
+    <section id="contenu">
         <ul>
-            <li>Kira</li>
-            <li>Lola</li>
-            <li>Margot</li>
-            <li>Sana</li>
+            <li>Laurenzo</li>
+            <li>Mathéo</li>
+            <li>Malick</li>
+            <li>Melvin</li>
         </ul>
-    </div>
-    <div class="resume">
-        <h1 class="titre-categorie">Résumé</h1>
-    </div>
+
+        <div class="wrap-resume">
+            <p class="texte-resume">
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
+                placerat eleifend leo.
+            </p>
+        </div>
+
+        <div class="wrap-podcast">
+            <p class="texte-podcast">Ecouter le podcast : </p>
+            <audio class="player" controls data-audio="2"></audio>
+        </div>
+    </section>
 </body>
 
 </html>
