@@ -128,13 +128,20 @@ body {
 .contenu {
     margin-top: 30px;
     display: flex;
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
 }
 
 .contenu .nav {
     display: flex;
     margin: 0px;
+<<<<<<< HEAD
     width: 25%;
+=======
+    width: 15%;
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
     height: 100%;
     border-right: 4px solid var(--couleur);
     align-content: center;
@@ -142,7 +149,10 @@ body {
 
 .contenu .nav ul {
     list-style: none;
+<<<<<<< HEAD
     line-height: 17.5px;
+=======
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
     width: 100%;
 }
 
@@ -167,7 +177,11 @@ body {
     border-top: 4px solid var(--couleur);
 }
 
+<<<<<<< HEAD
 .contenu .nav ul li:last-child {
+=======
+.contenu .nav ul li:nth-child(8) {
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
     border-bottom: 4px solid var(--couleur);
 }
 
@@ -192,18 +206,27 @@ body {
 
 .footer {
     width: 100%;
+<<<<<<< HEAD
     height: 20px;
+=======
+    height: 40px;
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
 }
 
 .footer .texte-footer {
     color: var(--texte-clair);
     font-family: 'Kanit', sans-serif;
+<<<<<<< HEAD
     margin-top: 5px;
+=======
+    margin-top: 4px;
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
 }
 
 
 /* Page Iframe */
 
+<<<<<<< HEAD
 #header {
     position: fixed;
     top: 0px;
@@ -228,6 +251,12 @@ body {
     position: fixed;
     left: 0;
     top: 50px;
+=======
+#nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
     width: 25%;
     height: 100%;
     border-right: 4px solid var(--couleur);
@@ -274,7 +303,11 @@ body {
 #contenu {
     position: fixed;
     right: 0;
+<<<<<<< HEAD
     top: 50px;
+=======
+    top: 0;
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
     width: 75%;
     height: 100%;
 }
@@ -320,6 +353,7 @@ body {
     height: 42.5%;
 }
 
+<<<<<<< HEAD
 #contenu .wrap-podcast .texte-podcast {
     color: var(--texte-clair);
     font-size: normal;
@@ -331,6 +365,12 @@ body {
     position: relative;
     width: 32%;
     height: 20%;
+=======
+#contenu .wrap-podcast audio.player {
+    position: relative;
+    width: 30%;
+    height: 35px;
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
     background-color: var(--couleur);
     border: none;
     border-radius: 45px;
@@ -378,7 +418,11 @@ body {
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 905px) {
+=======
+@media (max-width: 605px) {
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
     .header {
         background: #000000;
     }
@@ -407,6 +451,7 @@ body {
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 940px){
     #contenu .wrap-podcast audio.player {
         width: 55%;
@@ -459,4 +504,38 @@ body {
     .header .titre .sous-titre {
         font-size: x-large;
     }
+=======
+@media (max-width: 375px) {
+    .header {
+        background: #000000;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .header .titre i.gauche {
+        font-size: normal;
+    }
+    .header .titre i.droite {
+        font-size: normal;
+    }
+    .header .titre i.droite::after {
+        content: '';
+    }
+    .header .titre .sous-titre {
+        display: none;
+    }
+    #nav {
+        display: none;
+    }
+    #contenu {
+        display: none;
+    }
+    .mq-iframe-content {
+        display: block;
+    }
+    .mq-iframe-content .wrap-participants {
+        width: 100%;
+        border-bottom: var(--couleur);
+    }
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
 }

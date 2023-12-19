@@ -4,7 +4,10 @@ const iframe = doc.querySelector('.iframe');
 const player = doc.querySelector('.player');
 const audio = doc.querySelector('audio');
 const img = doc.querySelector('.jeu-image');
+<<<<<<< HEAD
 var titres = doc.querySelector('#titre');
+=======
+>>>>>>> 382a6ef5c4467a2723a8555bc672a400dfd781d0
 var liste = doc.querySelectorAll('li');
 var langue = navigator.language;
 
